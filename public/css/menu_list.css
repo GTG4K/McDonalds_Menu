@@ -1,0 +1,152 @@
+.home_menu{
+    display: flex;
+    justify-content:center;
+    padding-bottom: 30px;
+    padding: 30px 10%;
+}
+
+.sidebar{
+    margin-right: 100px;
+}
+.all_prods{
+    background-color: #FFC72C;
+    color: #27251F;
+    border-radius: 10px;
+    border: none;
+    padding:10px 30px;
+    width: 200px;
+    margin-top: 25px;
+    transition: 0.3s;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.all_prods:hover{
+    background: #b38916;
+    color: #27251F;
+    border-radius: 10px;
+    border: none;
+    padding:10px 30px;
+    width: 200px;
+    margin-top: 25px;
+    transition: 0.3s;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.sidebar .burgers, .drinks{
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    color: #27251F;
+    text-align: center;
+    align-items: center;
+    border: solid;
+    width: 200px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+    border-width: 1px;
+}
+
+.sidebar .drinks{
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    color: #27251F;
+    text-align: center;
+    align-items: center;
+    border: solid;
+    width: 200px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+    border-width: 1px;
+}
+
+.sidebar .burgers:hover{
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    color: #b38916;
+    text-align: center;
+    align-items: center;
+    border: solid;
+    width: 200px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+    border-width: 1px;
+}
+
+.sidebar .drinks:hover{
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    color: #b38916;
+    text-align: center;
+    align-items: center;
+    border: solid;
+    width: 200px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+    border-width: 1px;
+}
+
+.sidebar img{
+    width: 50px;
+    padding: 10px;
+}
+
+
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_items{
+    background: rgba(245, 245, 245, 0.789);
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.menu_items img{
+    width: 50px;
+    padding: 10px;
+}
+
+.menu_items p{
+    font-size: 16px;
+    padding: 10px;
+}
+
+.buttons{
+    margin-left: auto;
+}
+
+.menu_items button{
+    color: #27251F;
+    background: #FFC72C;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+    padding:20px;
+    margin-left: auto;
+    transition: 0.3s;
+}
+
+.menu_items button:hover{
+    color: #27251F;
+    background: #b38916;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+    padding:20px;
+    margin-left: auto;
+    transition: 0.3s;
+}

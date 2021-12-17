@@ -1,0 +1,46 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+footer{
+    padding: 20px;
+    background: #FFC72C;
+    text-align: center;
+}
+
+.container{
+    padding: 0 10%;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+header img{
+    display: block;
+    width: 3%;
+}
+
+.adminbtn{
+    align-items: center;
+    color: #292929;
+    font-size: 16px;
+    background-color: #FFC72C;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 18px 20px;
+    line-height: 1
+}
+
+.homebtn{
+    align-items: center;
+    color: #292929;
+    font-size: 16px;
+    padding: 18px 20px;
+    line-height: 1
+}
