@@ -20,7 +20,7 @@ class ProductsController extends Controller
 
         if ($search){
 
-            $products = Product::where('name',"$search")->get();
+            $products = Product::where('name',"like","%".$search."%")->get();
             return view("index",['products' => $products]);
         }
 
