@@ -7,6 +7,7 @@
 
 .sidebar{
     margin-right: 100px;
+    max-width: 200px;
 }
 .all_prods{
     background-color: #FFC72C;
@@ -136,6 +137,7 @@
     border-radius: 10px;
     border: none;
     padding:20px;
+    height: 100%;
     margin-left: auto;
     transition: 0.3s;
 }

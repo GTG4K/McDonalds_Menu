@@ -15,8 +15,16 @@ class ProductsController extends Controller
     }
 
     public function index(){
-        $products = Product::all();
 
+        $search = request()->query('search_result');
+
+        if ($search){
+
+            $products = Product::where('name',"$search")->get();
+            return view("index",['products' => $products]);
+        }
+
+        $products = Product::all();
         return view("index",['products' => $products]);
     }
 
@@ -51,7 +59,7 @@ class ProductsController extends Controller
 
         return view('edit',['product'=>$product]);
     }
-
+    
     public function store(){
 
         $product = new Product();
@@ -86,3 +94,4 @@ class ProductsController extends Controller
         return redirect('/');
     }
 }
+

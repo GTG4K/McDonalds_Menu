@@ -3,6 +3,7 @@
 @section('css')
 <link rel="stylesheet" href="/css/welcome.css">
 <link rel="stylesheet" href="/css/menu_list.css">
+<link rel="stylesheet" href="/css/home_form.css">
 @endsection
 
 @section('content')
@@ -32,6 +33,16 @@
                 <p>სასმელები</p>
             </button>
         </a>
+
+        <hr>
+
+        <div class="form_container">
+            <form action="products" method="GET">
+                <label class="input_label" for="">მოძებნე პროდუქტი</label>
+                <input type="text" name="search_result" placeholder="ძიება">
+            </form>
+        </div>
+
     </div>
 
     <div class="menu">
@@ -43,7 +54,7 @@
                 <img src="/img/drink.png">
             @endif
             <p> {{$product->name}} </p>
-            <p> {{$product->price}}</p>
+            <p> ${{$product->price}}</p>
         </div>
         @endforeach
     </div>
